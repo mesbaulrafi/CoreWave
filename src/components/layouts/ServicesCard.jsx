@@ -8,7 +8,7 @@ const ServicesCard = () => {
    <div className="">
     <div className="">
         <WebLogo/>
-        <UiuxLogo/>
+        <h4 className=''>Web Development</h4>
     </div>
    </div>
    </>
