@@ -2,6 +2,9 @@ import React from "react";
 import Containar from "../Containar";
 import ServicesCard from "../layouts/ServicesCard";
 import WebLogo from "../../assets/logo/WebLogo";
+import SeoLogo from "../../assets/logo/SeoLogo";
+import UiuxLogo from "../../assets/logo/UiuxLogo";
+import GraphicLogo from "../../assets/logo/GraphicLogo";
 
 
 const Services = () => {
@@ -26,8 +29,8 @@ const Services = () => {
                 {/* Card Two */}
                 <div className=" ">
                   <ServicesCard
-                    cardIcon={<WebLogo />}
-                    cardTitle={"Web Development"}
+                    cardIcon={<SeoLogo />}
+                    cardTitle={"SEO Marketing"}
                     cardText={
                       "Web development is the art of creating engaging and visually appealing websites "
                     }
@@ -39,8 +42,8 @@ const Services = () => {
                 {/* Card Three */}
                 <div className=" pb-10">
                   <ServicesCard
-                    cardIcon={<WebLogo />}
-                    cardTitle={"Web Development"}
+                    cardIcon={<UiuxLogo />}
+                    cardTitle={"UI/UX Analysis"}
                     cardText={
                       "Web development is the art of creating engaging and visually appealing websites "
                     }
@@ -49,8 +52,8 @@ const Services = () => {
                 {/* Card Four */}
                 <div className=" ">
                   <ServicesCard
-                    cardIcon={<WebLogo />}
-                    cardTitle={"Web Development"}
+                    cardIcon={<GraphicLogo />}
+                    cardTitle={"Graphic Design"}
                     cardText={
                       "Web development is the art of creating engaging and visually appealing websites "
                     }
