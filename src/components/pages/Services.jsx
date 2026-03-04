@@ -13,7 +13,7 @@ const Services = () => {
       <div className=" bg-[#eefff9]  rounded-tl-[300px] rounded-br-[300px] overflow-hidden">
         <Containar>
           <div className="flex justify-between  ">
-            {/* Card Part */}
+            {/* Card Part Start*/}
             <div className="flex gap-10 py-[70px]">
               <div className="pt-[140px]">
                 {/* Card One */}
@@ -62,6 +62,7 @@ const Services = () => {
                 <div className=""></div>
               </div>
             </div>
+            {/* Card Part End*/}
             {/* Text Part */}
             <div className="pl-[113px] pt-[335px]">
               <h3 className="font-lato font-semibold text-[45px] leading-14 ">We offer a variety of services such as</h3>
